@@ -45,36 +45,29 @@ h3 {
 .encabezado_div {
   background-color: #040438;
 }
-
-.imagen_nav {
+.encabezado_div .imagen_nav {
   width: 100px;
 }
-
-.div_nav {
+.encabezado_div .button_nav {
+  color: #040438;
+}
+.encabezado_div .button_nav .span_button_nav {
+  background-color: azure;
+}
+.encabezado_div .div_nav {
   height: 150px;
 }
-
-.li_nav {
+.encabezado_div .div_nav .ul_nav {
+  background-color: #040438;
+}
+.encabezado_div .div_nav .ul_nav .li_nav {
   font-family: "lato", sans-serif;
   font-size: x-large;
   color: azure;
 }
-
-.li_nav:hover {
+.encabezado_div .div_nav .ul_nav .li_nav:hover {
   font-size: x-large;
   color: gainsboro;
-}
-
-.ul_nav {
-  background-color: #040438;
-}
-
-.button_nav {
-  color: #040438;
-}
-
-.span_button_nav {
-  background-color: azure;
 }
 
 /*********************************************** Footer ***********************************************/

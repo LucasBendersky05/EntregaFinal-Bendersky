@@ -3,3 +3,9 @@
     font-size: $font-size;
     font-weight: $font-weight;
 }
+
+@mixin flex-justify ($display, $flex-wrap, $justify-content) {
+    display: $display;
+    flex-wrap: $flex-wrap;
+    justify-content: $justify-content;
+}

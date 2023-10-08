@@ -3,34 +3,36 @@
 
 .encabezado_div {
     background-color: #040438;
-}
 
-.imagen_nav {
-    width: 100px;
-}
+    .imagen_nav {
+        width: 100px;
+    }
 
-.div_nav {
-    height: 150px;
-}
+    .button_nav {
+        color: #040438;
 
-.li_nav {
-    @include letras($lato, x-large, null);
-    color: azure; 
-}
+        .span_button_nav {
+            background-color: azure;
+        }
+    }
+    
+    .div_nav {
 
-.li_nav:hover {
-    font-size: x-large;
-    color: gainsboro;
-}
+        height: 150px;
+        
+        .ul_nav {
+            background-color: #040438;
 
-.ul_nav {
-    background-color: #040438;
-}
+            .li_nav {
+                @include letras($lato, x-large, null);
+                color: azure; 
 
-.button_nav {
-    color: #040438;
-}
-
-.span_button_nav {
-    background-color: azure;
+                &:hover {
+                    font-size: x-large;
+                    color: gainsboro;
+                }
+            }
+            
+        }
+    }
 }
