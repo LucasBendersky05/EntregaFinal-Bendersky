@@ -41,7 +41,7 @@ h3 {
     font-size: 5em;
   }
 }
-/********************************************** Nav-bar **********************************************/
+/*********************************************** navbar ***********************************************/
 .encabezado_div {
   background-color: #040438;
 }
@@ -55,9 +55,9 @@ h3 {
 }
 
 .li_nav {
+  font-family: "lato", sans-serif;
   font-size: x-large;
   color: azure;
-  font-family: "Lato", sans-serif;
 }
 
 .li_nav:hover {
@@ -89,7 +89,7 @@ h3 {
 }
 
 .quienes_somos_parrafo {
-  font-family: "Lato", sans-serif;
+  font-family: "lato", sans-serif;
   font-size: x-large;
   font-weight: 400;
 }
@@ -159,13 +159,13 @@ h3 {
 }
 
 .parrafo_principal_agenda {
-  font-family: "Lato", sans-serif;
+  font-family: "lato", sans-serif;
   font-size: large;
   font-weight: 400;
 }
 
 .parrafo_secundario_agenda {
-  font-family: "Lato", sans-serif;
+  font-family: "lato", sans-serif;
   font-size: large;
   font-weight: 400;
 }
@@ -177,7 +177,7 @@ h3 {
 }
 /*********************************************** Campeones ***********************************************/
 .parrafo_campeones {
-  font-family: "Lato", sans-serif;
+  font-family: "lato", sans-serif;
   font-size: large;
   font-weight: 400;
 }

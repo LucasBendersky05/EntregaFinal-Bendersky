@@ -1,83 +1,3 @@
-
-/* Nuevo *//*Reset global*/
-* {
-    box-sizing: border-box;
-}
-
-/*Reset fuente*/
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
-/*Reset estilo de lista*/
-ul {
-    list-style-type: none;
-}
-
-/*Reset links*/
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-/*Reset img*/
-img {
-    width: 100%;
-}
-
-/* General */
-
-h2 {
-    @include letras($lato, 10em, 700);
-}
-
-h3 {
-    font-size: xx-large;
-}
-
-@media screen and (max-width: 556px) {
-    h2 {
-        font-size: 5em;
-    }
-}
-
-/********************************************** Nav-bar **********************************************/
-
-.encabezado_div {
-    background-color: #040438;
-}
-
-.imagen_nav {
-    width: 100px;
-}
-
-.div_nav {
-    height: 150px;
-}
-
-.li_nav {
-    @include letras($lato, x-large, null);
-    color: azure; 
-}
-
-.li_nav:hover {
-    font-size: x-large;
-    color: gainsboro;
-}
-
-.ul_nav {
-    background-color: #040438;
-}
-
-.button_nav {
-    color: #040438;
-}
-
-.span_button_nav {
-    background-color: azure;
-}
-
 /*********************************************** Seccion quienes somos ***********************************************/
 
 .quienes_somos_div_principal {
@@ -85,15 +5,11 @@ h3 {
 }
 
 .quienes_somos_h1 {
-    font-family: 'lato', sans-serif;
-    font-size: 7rem;
-    font-weight: 700;
+    @include letras($lato, 7em, 700);
 }
 
 .quienes_somos_parrafo {
-    font-family: 'Lato', sans-serif;
-    font-size: x-large;
-    font-weight: 400;
+    @include letras($lato, x-large, 400);
 }
 
 @media screen and (min-width: 1230px) {
@@ -171,15 +87,11 @@ h3 {
 }
 
 .parrafo_principal_agenda {
-    font-family: 'Lato', sans-serif;
-    font-size: large;
-    font-weight: 400;
+    @include letras($lato, large, 400);
 }
 
 .parrafo_secundario_agenda {
-    font-family: 'Lato', sans-serif;
-    font-size: large;
-    font-weight: 400;
+    @include letras($lato, large, 400);
 }
 
 @media screen and (min-width: 1220px) {
@@ -192,9 +104,7 @@ h3 {
 /*********************************************** Campeones ***********************************************/
 
 .parrafo_campeones {
-    font-family: 'Lato', sans-serif;
-    font-size: large;
-    font-weight: 400;
+    @include letras($lato, large, 400);
 }
 
 @media screen and (max-width: 992) {
@@ -202,31 +112,6 @@ h3 {
     .img_campeones {
         width: 10px;
     }
-}
-
-/*********************************************** Footer ***********************************************/
-
-.div_footer {
-    background-color: rgb(19, 19, 19);
-}
-
-.foto_auspiciantes {
-    width: 10rem;
-}
-
-.div_disclaimer {
-    align-items: center;
-}
-
-.foto_logo {
-    width: 10rem;
-}
-
-.span_footer {
-    font-family: 'Lato', sans-serif;
-    font-size: large;
-    font-weight: 700;
-    color: azure;
 }
 
 /*********************************************** Seccion Ranking ***********************************************/

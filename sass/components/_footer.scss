@@ -1,0 +1,23 @@
+
+/*********************************************** Footer ***********************************************/
+
+.div_footer {
+    background-color: rgb(19, 19, 19);
+}
+
+.foto_auspiciantes {
+    width: 10rem;
+}
+
+.div_disclaimer {
+    align-items: center;
+}
+
+.foto_logo {
+    width: 10rem;
+}
+
+.span_footer {
+    @include letras($lato, large, 700);
+    color: azure;
+}

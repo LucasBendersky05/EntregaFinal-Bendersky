@@ -1,0 +1,42 @@
+/* Nuevo *//*Reset global*/
+* {
+    box-sizing: border-box;
+}
+
+/*Reset fuente*/
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/*Reset estilo de lista*/
+ul {
+    list-style-type: none;
+}
+
+/*Reset links*/
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*Reset img*/
+img {
+    width: 100%;
+}
+
+/* General */
+
+h2 {
+    @include letras($lato, 10em, 700);
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 556px) {
+    h2 {
+        font-size: 5em;
+    }
+}
