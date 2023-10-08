@@ -77,6 +77,30 @@ h3 {
   background-color: azure;
 }
 
+/*********************************************** Footer ***********************************************/
+.div_footer {
+  background-color: rgb(19, 19, 19);
+}
+
+.foto_auspiciantes {
+  width: 10rem;
+}
+
+.div_disclaimer {
+  align-items: center;
+}
+
+.foto_logo {
+  width: 10rem;
+}
+
+.span_footer {
+  font-family: "lato", sans-serif;
+  font-size: large;
+  font-weight: 700;
+  color: azure;
+}
+
 /*********************************************** Seccion quienes somos ***********************************************/
 .quienes_somos_div_principal {
   background-color: rgb(243, 243, 243);
@@ -84,7 +108,7 @@ h3 {
 
 .quienes_somos_h1 {
   font-family: "lato", sans-serif;
-  font-size: 7rem;
+  font-size: 7em;
   font-weight: 700;
 }
 
@@ -187,30 +211,6 @@ h3 {
     width: 10px;
   }
 }
-/*********************************************** Footer ***********************************************/
-.div_footer {
-  background-color: rgb(19, 19, 19);
-}
-
-.foto_auspiciantes {
-  width: 10rem;
-}
-
-.div_disclaimer {
-  align-items: center;
-}
-
-.foto_logo {
-  width: 10rem;
-}
-
-.span_footer {
-  font-family: "Lato", sans-serif;
-  font-size: large;
-  font-weight: 700;
-  color: azure;
-}
-
 /*********************************************** Seccion Ranking ***********************************************/
 .h1_ranking {
   font-size: 7em;

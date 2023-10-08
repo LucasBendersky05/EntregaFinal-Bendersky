@@ -1,8 +1,9 @@
-@import "utilities/variables";
-@import "utilities/mixins";
-@import "globals/reset";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./globals/reset";
 
-@import "components/navbar";
-@import "components/footer";
+@import "./components/navbar";
+@import "./components/footer";
 
-@import "views/home";
+@import "./views/home";
+@import "./views/ranking";
