@@ -1,0 +1,250 @@
+
+/* Nuevo *//*Reset global*/
+* {
+    box-sizing: border-box;
+}
+
+/*Reset fuente*/
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/*Reset estilo de lista*/
+ul {
+    list-style-type: none;
+}
+
+/*Reset links*/
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*Reset img*/
+img {
+    width: 100%;
+}
+
+/* General */
+
+h2 {
+    font-family: 'lato', sans-serif;
+    font-size: 10em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+@media screen and (max-width: 556px) {
+    h2 {
+        font-size: 5em;
+    }
+}
+
+/********************************************** Nav-bar **********************************************/
+
+.encabezado_div {
+    background-color: #040438;
+}
+
+.imagen_nav {
+    width: 100px;
+}
+
+.div_nav {
+    height: 150px;
+}
+
+.li_nav {
+    font-size: x-large;
+    color: azure; 
+    font-family: 'Lato', sans-serif;
+}
+
+.li_nav:hover {
+    font-size: x-large;
+    color: gainsboro;
+}
+
+.ul_nav {
+    background-color: #040438;
+}
+
+.button_nav {
+    color: #040438;
+}
+
+.span_button_nav {
+    background-color: azure;
+}
+
+/*********************************************** Seccion quienes somos ***********************************************/
+
+.quienes_somos_div_principal {
+    background-color: rgb(243, 243, 243);
+}
+
+.quienes_somos_h1 {
+    font-family: 'lato', sans-serif;
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+.quienes_somos_parrafo {
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 1230px) {
+
+    .seccion_quienes_somos {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .video_quienes_somos {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+
+    .seccion_quienes_somos {
+        display: flex;
+        justify-content: center;
+    }
+
+    .video_quienes_somos {
+        order: -1;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .quienes_somos_h1 {
+        font-size: 5em;
+    }
+
+}
+
+/*********************************************** Noticias ***********************************************/
+
+.noticias_div_semi_principal {
+    width: 100%;
+}
+
+.noticias_secundarias_div_semi_principal {
+    background-color: rgb(243, 243, 243);
+}
+
+.parrafo_principal {
+    font-size: large;
+}
+
+.parrafo_secundario {
+    font-size: large;
+}
+
+.noticias_h3 {
+    font-size: x-large;
+}
+
+.div_prueba {
+    margin-top: 1rem;
+}
+
+/*********************************************** Agenda ***********************************************/
+
+#agenda {
+    width: 100%;
+}
+
+.div_mayor_agenda {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.imagen_agenda {
+    width: 60rem;
+    padding: 1px 50px 10px 50px;
+}
+
+.parrafo_principal_agenda {
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+
+.parrafo_secundario_agenda {
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 1220px) {
+
+    .div-mayor_agenda {
+        justify-content: space-between;
+    }
+}
+
+/*********************************************** Campeones ***********************************************/
+
+.parrafo_campeones {
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 992) {
+
+    .img_campeones {
+        width: 10px;
+    }
+}
+
+/*********************************************** Footer ***********************************************/
+
+.div_footer {
+    background-color: rgb(19, 19, 19);
+}
+
+.foto_auspiciantes {
+    width: 10rem;
+}
+
+.div_disclaimer {
+    align-items: center;
+}
+
+.foto_logo {
+    width: 10rem;
+}
+
+.span_footer {
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    color: azure;
+}
+
+/*********************************************** Seccion Ranking ***********************************************/
+.h1_ranking {
+    font-size: 7em;
+}
+
+.h2_ranking {
+    font-size: xx-large;
+}
+
+.parrafo_ranking {
+    font-size: larger;
+}
+
+.div_footer_ranking {
+    background-color: rgb(19, 19, 19);
+}
