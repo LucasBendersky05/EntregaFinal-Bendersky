@@ -1,0 +1,38 @@
+
+/*********************************************** navbar ***********************************************/
+
+.encabezado_div {
+    background-color: map-get($map-colors, azul);
+
+    .imagen_nav {
+        width: 100px;
+    }
+
+    .button_nav {
+        color: map-get($map-colors, azul);
+
+        .span_button_nav {
+            background-color: map-get($map-colors, blanco);
+        }
+    }
+    
+    .div_nav {
+
+        height: 150px;
+        
+        .ul_nav {
+            background-color: map-get($map-colors, azul);
+
+            .li_nav {
+                @include letras($lato, x-large, null);
+                color: map-get($map-colors, blanco); 
+
+                &:hover {
+                    font-size: x-large;
+                    color: map-get($map-colors, gris);
+                }
+            }
+            
+        }
+    }
+}
