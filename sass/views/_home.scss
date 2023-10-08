@@ -29,7 +29,7 @@ img {
 /* General */
 
 h2 {
-    @include letras('lato, sans-serif', 10em, 700);
+    @include letras($lato, 10em, 700);
 }
 
 h3 {
@@ -57,9 +57,8 @@ h3 {
 }
 
 .li_nav {
-    font-size: x-large;
+    @include letras($lato, x-large, null);
     color: azure; 
-    font-family: 'Lato', sans-serif;
 }
 
 .li_nav:hover {
