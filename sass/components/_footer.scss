@@ -2,7 +2,7 @@
 /*********************************************** Footer ***********************************************/
 
 .div_footer {
-    background-color: rgb(19, 19, 19);
+    background-color: map-get($map-colors, negro);
 }
 
 .foto_auspiciantes {
@@ -19,5 +19,5 @@
 
 .span_footer {
     @include letras($lato, large, 700);
-    color: azure;
+    color: map-get($map-colors, blanco);
 }

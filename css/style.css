@@ -96,7 +96,7 @@ h3 {
 
 /*********************************************** Seccion quienes somos ***********************************************/
 .quienes_somos_div_principal {
-  background-color: rgb(243, 243, 243);
+  background-color: gainsboro;
 }
 
 .quienes_somos_h1 {
@@ -140,7 +140,7 @@ h3 {
 }
 
 .noticias_secundarias_div_semi_principal {
-  background-color: rgb(243, 243, 243);
+  background-color: gainsboro;
 }
 
 .parrafo_principal {
@@ -218,7 +218,7 @@ h3 {
 }
 
 .div_footer_ranking {
-  background-color: rgb(19, 19, 19);
+  background-color: #040438;
 }
 
 /*# sourceMappingURL=style.css.map */

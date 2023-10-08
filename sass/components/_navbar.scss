@@ -2,17 +2,17 @@
 /*********************************************** navbar ***********************************************/
 
 .encabezado_div {
-    background-color: #040438;
+    background-color: map-get($map-colors, azul);
 
     .imagen_nav {
         width: 100px;
     }
 
     .button_nav {
-        color: #040438;
+        color: map-get($map-colors, azul);
 
         .span_button_nav {
-            background-color: azure;
+            background-color: map-get($map-colors, blanco);
         }
     }
     
@@ -21,15 +21,15 @@
         height: 150px;
         
         .ul_nav {
-            background-color: #040438;
+            background-color: map-get($map-colors, azul);
 
             .li_nav {
                 @include letras($lato, x-large, null);
-                color: azure; 
+                color: map-get($map-colors, blanco); 
 
                 &:hover {
                     font-size: x-large;
-                    color: gainsboro;
+                    color: map-get($map-colors, gris);
                 }
             }
             

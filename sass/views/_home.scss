@@ -1,7 +1,7 @@
 /*********************************************** Seccion quienes somos ***********************************************/
 
 .quienes_somos_div_principal {
-    background-color: rgb(243, 243, 243);
+    background-color: map-get($map-colors, gris);
 }
 
 .quienes_somos_h1 {
@@ -15,8 +15,7 @@
 @media screen and (min-width: 1230px) {
 
     .seccion_quienes_somos {
-        display: flex;
-        justify-content: space-between;
+        @include flex-justify(flex, null, space-between);
     }
 
     .video_quienes_somos {
@@ -27,8 +26,7 @@
 @media screen and (max-width: 1230px) {
 
     .seccion_quienes_somos {
-        display: flex;
-        justify-content: center;
+        @include flex-justify(flex, null, center);
     }
 
     .video_quienes_somos {
@@ -37,6 +35,7 @@
 }
 
 @media screen and (max-width: 556px) {
+
     .quienes_somos_h1 {
         font-size: 5em;
     }
@@ -50,7 +49,7 @@
 }
 
 .noticias_secundarias_div_semi_principal {
-    background-color: rgb(243, 243, 243);
+    background-color: map-get($map-colors, gris);
 }
 
 .parrafo_principal {
@@ -76,9 +75,7 @@
 }
 
 .div_mayor_agenda {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
+    @include flex-justify(flex, wrap-reverse, center);
 }
 
 .imagen_agenda {
