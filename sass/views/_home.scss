@@ -29,9 +29,7 @@ img {
 /* General */
 
 h2 {
-    font-family: 'lato', sans-serif;
-    font-size: 10em;
-    font-weight: 700;
+    @include letras('lato, sans-serif', 10em, 700);
 }
 
 h3 {
