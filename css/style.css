@@ -109,29 +109,6 @@ h3 {
   font-weight: 400;
 }
 
-@media screen and (min-width: 1230px) {
-  .seccion_quienes_somos {
-    display: flex;
-    justify-content: space-between;
-  }
-  .seccion_quienes_somos .video_quienes_somos {
-    width: 550px;
-  }
-}
-@media screen and (max-width: 1230px) {
-  .seccion_quienes_somos {
-    display: flex;
-    justify-content: center;
-  }
-  .seccion_quienes_somos .video_quienes_somos {
-    order: -1;
-  }
-}
-@media screen and (max-width: 556px) {
-  .quienes_somos_h1 {
-    font-size: 5em;
-  }
-}
 /*********************************************** Noticias ***********************************************/
 .noticias_div_semi_principal {
   width: 100%;
@@ -176,11 +153,6 @@ h3 {
   font-weight: 400;
 }
 
-@media screen and (min-width: 1220px) {
-  .div-mayor_agenda {
-    justify-content: space-between;
-  }
-}
 /*********************************************** Campeones ***********************************************/
 .parrafo_campeones {
   font-family: "lato", sans-serif;
@@ -188,6 +160,49 @@ h3 {
   font-weight: 400;
 }
 
+/*********************************************** MediaQueries ***********************************************/
+@media screen and (min-width: 1230px) {
+  .seccion_quienes_somos {
+    display: flex;
+    justify-content: space-between;
+  }
+  .seccion_quienes_somos .video_quienes_somos {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .seccion_quienes_somos {
+    display: flex;
+    justify-content: center;
+  }
+  .seccion_quienes_somos .video_quienes_somos {
+    order: -1;
+  }
+}
+@media screen and (max-width: 556px) {
+  .quienes_somos_h1 {
+    font-size: 5em;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .seccion_quienes_somos {
+    display: flex;
+    justify-content: center;
+  }
+  .seccion_quienes_somos .video_quienes_somos {
+    order: -1;
+  }
+}
+@media screen and (max-width: 556px) {
+  .quienes_somos_h1 {
+    font-size: 5em;
+  }
+}
+@media screen and (min-width: 1220px) {
+  .div-mayor_agenda {
+    justify-content: space-between;
+  }
+}
 @media screen and (max-width: 992) {
   .img_campeones {
     width: 10px;
