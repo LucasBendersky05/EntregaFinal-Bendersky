@@ -98,25 +98,75 @@ h3 {
 .quienes_somos_div_principal {
   background-color: gainsboro;
 }
-
-.quienes_somos_h1 {
+.quienes_somos_div_principal .quienes_somos_h1 {
   font-family: "lato", sans-serif;
   font-size: 7em;
   font-weight: 700;
 }
-
-.quienes_somos_parrafo {
+.quienes_somos_div_principal .quienes_somos_parrafo {
   font-family: "lato", sans-serif;
   font-size: x-large;
   font-weight: 400;
 }
 
+/*********************************************** Noticias ***********************************************/
+.noticias_div_semi_principal {
+  width: 100%;
+}
+.noticias_div_semi_principal .noticias_secundarias_div_semi_principal {
+  background-color: gainsboro;
+}
+.noticias_div_semi_principal .parrafo_principal {
+  font-size: large;
+}
+.noticias_div_semi_principal .parrafo_secundario {
+  font-size: large;
+}
+.noticias_div_semi_principal .noticias_h3 {
+  font-size: x-large;
+}
+.noticias_div_semi_principal .div_prueba {
+  margin-top: 1rem;
+}
+
+/*********************************************** Agenda ***********************************************/
+#agenda {
+  width: 100%;
+}
+#agenda .div_mayor_agenda {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+#agenda .div_mayor_agenda .parrafo_secundario_agenda {
+  font-family: "lato", sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+#agenda .div_mayor_agenda .imagen_agenda {
+  width: 60rem;
+  padding: 1px 50px 10px 50px;
+}
+#agenda .parrafo_principal_agenda {
+  font-family: "lato", sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+
+/*********************************************** Campeones ***********************************************/
+.parrafo_campeones {
+  font-family: "lato", sans-serif;
+  font-size: large;
+  font-weight: 400;
+}
+
+/*********************************************** MediaQueries ***********************************************/
 @media screen and (min-width: 1230px) {
   .seccion_quienes_somos {
     display: flex;
     justify-content: space-between;
   }
-  .video_quienes_somos {
+  .seccion_quienes_somos .video_quienes_somos {
     width: 550px;
   }
 }
@@ -125,7 +175,7 @@ h3 {
     display: flex;
     justify-content: center;
   }
-  .video_quienes_somos {
+  .seccion_quienes_somos .video_quienes_somos {
     order: -1;
   }
 }
@@ -134,71 +184,25 @@ h3 {
     font-size: 5em;
   }
 }
-/*********************************************** Noticias ***********************************************/
-.noticias_div_semi_principal {
-  width: 100%;
+@media screen and (max-width: 1230px) {
+  .seccion_quienes_somos {
+    display: flex;
+    justify-content: center;
+  }
+  .seccion_quienes_somos .video_quienes_somos {
+    order: -1;
+  }
 }
-
-.noticias_secundarias_div_semi_principal {
-  background-color: gainsboro;
+@media screen and (max-width: 556px) {
+  .quienes_somos_h1 {
+    font-size: 5em;
+  }
 }
-
-.parrafo_principal {
-  font-size: large;
-}
-
-.parrafo_secundario {
-  font-size: large;
-}
-
-.noticias_h3 {
-  font-size: x-large;
-}
-
-.div_prueba {
-  margin-top: 1rem;
-}
-
-/*********************************************** Agenda ***********************************************/
-#agenda {
-  width: 100%;
-}
-
-.div_mayor_agenda {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
-}
-
-.imagen_agenda {
-  width: 60rem;
-  padding: 1px 50px 10px 50px;
-}
-
-.parrafo_principal_agenda {
-  font-family: "lato", sans-serif;
-  font-size: large;
-  font-weight: 400;
-}
-
-.parrafo_secundario_agenda {
-  font-family: "lato", sans-serif;
-  font-size: large;
-  font-weight: 400;
-}
-
 @media screen and (min-width: 1220px) {
   .div-mayor_agenda {
     justify-content: space-between;
   }
 }
-/*********************************************** Campeones ***********************************************/
-.parrafo_campeones {
-  font-family: "lato", sans-serif;
-  font-size: large;
-  font-weight: 400;
-}
-
 @media screen and (max-width: 992) {
   .img_campeones {
     width: 10px;
@@ -218,7 +222,7 @@ h3 {
 }
 
 .div_footer_ranking {
-  background-color: #040438;
+  background-color: rgb(19, 19, 19);
 }
 
 /*# sourceMappingURL=style.css.map */

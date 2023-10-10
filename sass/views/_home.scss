@@ -2,24 +2,81 @@
 
 .quienes_somos_div_principal {
     background-color: map-get($map-colors, gris);
+
+    .quienes_somos_h1 {
+        @include letras($lato, 7em, 700);
+    }
+    
+    .quienes_somos_parrafo {
+        @include letras($lato, x-large, 400);
+    }
 }
 
-.quienes_somos_h1 {
-    @include letras($lato, 7em, 700);
+/*********************************************** Noticias ***********************************************/
+
+.noticias_div_semi_principal {
+    width: 100%;
+
+    .noticias_secundarias_div_semi_principal {
+        background-color: map-get($map-colors, gris);
+    }
+    
+    .parrafo_principal {
+        font-size: large;
+    }
+    
+    .parrafo_secundario {
+        font-size: large;
+    }
+    
+    .noticias_h3 {
+        font-size: x-large;
+    }
+    
+    .div_prueba {
+        margin-top: 1rem;
+    }
+    
 }
 
-.quienes_somos_parrafo {
-    @include letras($lato, x-large, 400);
+/*********************************************** Agenda ***********************************************/
+
+#agenda {
+    width: 100%;
+
+    .div_mayor_agenda {
+        @include flex-justify(flex, wrap-reverse, center);
+
+        .parrafo_secundario_agenda {
+            @include letras($lato, large, 400);
+        }
+
+        .imagen_agenda {
+            width: 60rem;
+            padding: 1px 50px 10px 50px;
+        }
+    }
+    .parrafo_principal_agenda {
+        @include letras($lato, large, 400);
+    }
 }
+
+/*********************************************** Campeones ***********************************************/
+
+.parrafo_campeones {
+    @include letras($lato, large, 400);
+}
+
+/*********************************************** MediaQueries ***********************************************/
 
 @media screen and (min-width: 1230px) {
 
     .seccion_quienes_somos {
         @include flex-justify(flex, null, space-between);
-    }
 
-    .video_quienes_somos {
-        width: 550px;
+        .video_quienes_somos {
+            width: 550px;
+        }
     }
 }
 
@@ -27,10 +84,10 @@
 
     .seccion_quienes_somos {
         @include flex-justify(flex, null, center);
-    }
 
-    .video_quienes_somos {
-        order: -1;
+        .video_quienes_somos {
+            order: -1;
+        }
     }
 }
 
@@ -42,53 +99,23 @@
 
 }
 
-/*********************************************** Noticias ***********************************************/
+@media screen and (max-width: 1230px) {
 
-.noticias_div_semi_principal {
-    width: 100%;
+    .seccion_quienes_somos {
+        @include flex-justify(flex, null, center);
+
+        .video_quienes_somos {
+            order: -1;
+        }
+    }
 }
 
-.noticias_secundarias_div_semi_principal {
-    background-color: map-get($map-colors, gris);
-}
+@media screen and (max-width: 556px) {
 
-.parrafo_principal {
-    font-size: large;
-}
+    .quienes_somos_h1 {
+        font-size: 5em;
+    }
 
-.parrafo_secundario {
-    font-size: large;
-}
-
-.noticias_h3 {
-    font-size: x-large;
-}
-
-.div_prueba {
-    margin-top: 1rem;
-}
-
-/*********************************************** Agenda ***********************************************/
-
-#agenda {
-    width: 100%;
-}
-
-.div_mayor_agenda {
-    @include flex-justify(flex, wrap-reverse, center);
-}
-
-.imagen_agenda {
-    width: 60rem;
-    padding: 1px 50px 10px 50px;
-}
-
-.parrafo_principal_agenda {
-    @include letras($lato, large, 400);
-}
-
-.parrafo_secundario_agenda {
-    @include letras($lato, large, 400);
 }
 
 @media screen and (min-width: 1220px) {
@@ -96,12 +123,6 @@
     .div-mayor_agenda {
         justify-content: space-between;
     }
-}
-
-/*********************************************** Campeones ***********************************************/
-
-.parrafo_campeones {
-    @include letras($lato, large, 400);
 }
 
 @media screen and (max-width: 992) {
