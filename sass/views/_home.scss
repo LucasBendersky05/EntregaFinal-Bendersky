@@ -19,24 +19,23 @@
 
     .noticias_secundarias_div_semi_principal {
         background-color: map-get($map-colors, gris);
+
+        .parrafo_secundario {
+            font-size: large;
+        }
+        
+        .noticias_h3 {
+            font-size: x-large;
+        }
+        
+        .div_prueba {
+            margin-top: 1rem;
+        }
     }
     
     .parrafo_principal {
         font-size: large;
     }
-    
-    .parrafo_secundario {
-        font-size: large;
-    }
-    
-    .noticias_h3 {
-        font-size: x-large;
-    }
-    
-    .div_prueba {
-        margin-top: 1rem;
-    }
-    
 }
 
 /*********************************************** Agenda ***********************************************/
