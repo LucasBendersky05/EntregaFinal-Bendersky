@@ -56,14 +56,14 @@
         }
     }
     .parrafo_principal_agenda {
-        @include letras($lato, large, 400);
+        @include letras($lato, xx-large, 700);
     }
 }
 
 /*********************************************** Campeones ***********************************************/
 
 .parrafo_campeones {
-    @include letras($lato, large, 400);
+    @include letras($lato, xx-large, 700);
 }
 
 /*********************************************** MediaQueries ***********************************************/
